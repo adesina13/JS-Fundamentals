@@ -10,7 +10,9 @@ if (argv[2]){
             }
             console.log(result)
         }
-    }
+    }else{
+    console.log("Missing size")
+}
 }else{
     console.log("Missing size")
 }
